@@ -1,0 +1,44 @@
+#app {
+  height: 70% !important;
+}
+html,
+body {
+  position: relative !important;
+  /* height: 100% !important; */
+}
+
+body {
+  background: #eee !important;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  font-size: 14px !important;
+  color: #000 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mySwiper {
+  width: 100% !important;
+  height: 70vh !important;
+
+}
+.swiper-slide {
+  text-align: center !important;
+  font-size: 18px !important;
+  background: #fff !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 600px !important;
+}
+
+.WrapperSlide{
+  transition-timing-function: linear !important;
+  height: 70vh !important;
+}
+
+.food_image{
+  width: 380px !important;
+  height: 570px !important;
+  display: block;
+  object-fit: cover;
+}

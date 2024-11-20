@@ -1,0 +1,74 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 70%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.swiper_container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fish{
+  width: 380px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fish img{
+  width: 380px;
+  height: 190px;
+}
+.date{
+  width: 380px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainContainer{
+  width: 380px;
+  height: 293px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fish a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  width: 260px;
+}
+.date p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #B5C2CE;
+}
+.date button{
+  width: 149px;
+  height: 35px;
+  border-radius: 190px;
+  background-color: transparent;
+  border: 1px solid #64D370;
+  color: #64D370;
+}

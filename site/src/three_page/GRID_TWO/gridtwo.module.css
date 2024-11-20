@@ -1,0 +1,174 @@
+.gridtwo_section{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.main_container_grid{
+    width: 1180px;
+    height: 500px;
+}
+.button_container{
+    width: 660px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex_container{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button_container p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 600;
+    width: 580px;
+}
+.button_container p span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #B5C2CE;
+}
+.button_container button{
+    width: 30px;
+    height: 30px;
+    background-color: #DEE6EE;
+    border: none;
+    border-radius: 190px;
+}
+.maintext{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+.containertext{
+    width: 60%;
+    height: 200vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bottomcontainer{
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.bottomcontainer button:nth-child(2){
+    width: 380px;
+    height: 60px;
+    border-radius: 190px;
+    background-color: #64D370;
+    border: none;
+    color: white;
+}
+.flex_containers{
+    width: 65%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.flex_containers div{
+    width: 380px;
+    height: 293px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex_containers div button{
+    width: 149px;
+    height: 35px;
+}
+.share_container{
+    width: 227px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.share_container p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.bottomcontainer div{
+    width: 107px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomcontainer div p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.bottomcontainer button{
+    width: 30px;
+    height: 30px;
+    background-color: #DEE6EE;
+    border: none;
+    border-radius: 190px;
+    font-size: 22px;
+}
+.bottomcontainer div:last-child{
+    width: 227px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fish{
+    width: 380px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fish img{
+  width: 380px;
+  height: 190px;
+}
+.date{
+  width: 380px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainContainer{
+  width: 380px;
+  height: 293px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fish a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  width: 260px;
+}
+.date p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #B5C2CE;
+}
+.date button{
+  width: 149px;
+  height: 35px;
+  border-radius: 190px;
+  background-color: transparent;
+  border: 1px solid #64D370;
+  color: #64D370;
+}
